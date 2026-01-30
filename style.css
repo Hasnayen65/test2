@@ -1,0 +1,13 @@
+body { font-family: Arial; margin:0; background:#f4f4f4; }
+header { display:flex; gap:10px; padding:15px; background:#111; color:white; align-items:center; }
+header input { flex:1; padding:8px; }
+.products { display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:15px; padding:15px; }
+.product { background:white; padding:10px; border-radius:8px; text-align:center; }
+.slider img { width:100%; }
+.category { text-align:center; margin:10px; }
+.category button { padding:8px 15px; margin:5px; }
+.cart-item { background:#fff; padding:10px; margin:10px; border-radius:6px; }
+.cart-item button { margin:0 5px; }
+.whatsapp { background:#25D366; color:#fff; padding:12px; border:none; font-size:16px; margin:20px; }
+.invoice { background:#fff; padding:20px; margin:20px auto; max-width:600px; }
+@media print { button{display:none;} }

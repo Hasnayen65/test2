@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>Your Cart</title>
+<link rel='stylesheet' href='style.css'>
+</head>
+<body>
+<header>
+  <h2>Your Cart</h2>
+  <a href='index.html'>⬅ Back</a>
+</header>
+<div class='cart-container' id='cart-items'></div>
+<h3 id='total-price'></h3>
+<h3>Checkout</h3>
+<input id='cname' placeholder='Your Name'><br><br>
+<input id='cphone' placeholder='Phone Number'><br><br>
+<textarea id='caddress' placeholder='Address'></textarea><br><br>
+<button onclick='confirmOrder()'>Confirm Order</button>
+<a id='whatsapp-link' target='_blank'>
+  <button class='whatsapp'>Order via WhatsApp</button>
+</a>
+<script src='script.js'></script>
+</body>
+</html>

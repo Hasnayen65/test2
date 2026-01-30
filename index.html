@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>My Shop</title>
+<link rel='stylesheet' href='style.css'>
+</head>
+<body>
+<header>
+  <h2>MyShop</h2>
+  <input type='text' id='search' placeholder='Search product...' onkeyup='searchProduct()'>
+  <a href='cart.html'>🛒 <span id='cart-count'>0</span></a>
+</header>
+<div class='slider'>
+  <img src='https://via.placeholder.com/900x300' id='slide'>
+</div>
+<div class='category'>
+  <button onclick='filter("all")'>All</button>
+  <button onclick='filter("mobile")'>Mobile</button>
+  <button onclick='filter("laptop")'>Laptop</button>
+</div>
+<section class='products' id='products'></section>
+<footer>
+  <p>📞 01XXXXXXXXX | 📧 example@gmail.com</p>
+  <a href='https://facebook.com/yourpage' target='_blank'>Facebook</a>
+</footer>
+<script src='script.js'></script>
+<script src='slider.js'></script>
+</body>
+</html>
